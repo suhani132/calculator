@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <!-- Display screen to show input and results -->
+        <div class="display">
+            <input type="text" id="screen" readonly>
+        </div>
+        
+        <!-- Calculator buttons using CSS Grid layout -->
+        <div class="buttons">
+            <!-- First row: Clear button spanning 3 columns and divide -->
+            <button class="btn clear" data-action="clear">C</button>
+            <button class="btn operator" data-action="operator">÷</button>
+            
+            <!-- Second row: Numbers 7, 8, 9 and multiply -->
+            <button class="btn number" data-number="7">7</button>
+            <button class="btn number" data-number="8">8</button>
+            <button class="btn number" data-number="9">9</button>
+            <button class="btn operator" data-action="operator">×</button>
+            
+            <!-- Third row: Numbers 4, 5, 6 and subtract -->
+            <button class="btn number" data-number="4">4</button>
+            <button class="btn number" data-number="5">5</button>
+            <button class="btn number" data-number="6">6</button>
+            <button class="btn operator" data-action="operator">-</button>
+            
+            <!-- Fourth row: Numbers 1, 2, 3 and add -->
+            <button class="btn number" data-number="1">1</button>
+            <button class="btn number" data-number="2">2</button>
+            <button class="btn number" data-number="3">3</button>
+            <button class="btn operator" data-action="operator">+</button>
+            
+            <!-- Fifth row: Zero spanning 2 columns, decimal point and equals -->
+            <button class="btn number zero" data-number="0">0</button>
+            <button class="btn decimal" data-action="decimal">.</button>
+            <button class="btn equals" data-action="equals">=</button>
+        </div>
+    </div>
+    
+    <!-- Link to JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
