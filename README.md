@@ -1,4 +1,4 @@
-Simple Calculator Web App
+#Simple Calculator Web App
 A clean, functional, and responsive calculator web application built with HTML, CSS, and JavaScript. Features a modern design with CSS Grid layout and comprehensive mathematical operations.
 🌟 Features
 
